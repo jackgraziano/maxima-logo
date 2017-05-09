@@ -53,29 +53,20 @@
 
 
 
-@media all and (min-width: 960px) {
+@media all and (min-width: 970px) {
   .logo-content .maxima-energia{
-    font-size: 170px;
+    font-size: 4em;
   }
   .logo-content .comercializadora{
-    font-size: 45px;
+    font-size: 1.4em;
   }
 }
 
-@media all and (max-width: 959px) and (min-width: 600px) {
-  .signorita{
-    font-size: 18vw;
+@media all and (max-width: 969px) {
+  .logo-content .maxima-energia{
+    font-size: 2.7em;
   }
-  .moda-festa{
-    font-size: 5vh;
-  }
-}
-
-@media all and (max-width: 599px) and (min-width: 50px) {
-  .signorita{
-    font-size: 26vw;
-  }
-  .moda-festa{
-    font-size: 5vh;
+  .logo-content .comercializadora{
+    font-size: 1em;
   }
 }
