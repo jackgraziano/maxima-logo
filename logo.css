@@ -1,0 +1,81 @@
+@font-face{
+  font-family: 'Timeless';
+  src: url('Timeless.ttf');
+}
+
+.logo-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.logo-content{
+  font-family: "Timeless";
+  /*border: 1px solid black;*/
+  position: relative;
+  float: left;
+}
+
+.logo-content .maxima-energia{
+  font-size: 4em;
+  text-align: center;
+}
+
+.logo-content .comercializadora{
+  font-size: 1.4em;
+  position: absolute;
+  right: 0;
+  bottom: -15px;
+  letter-spacing: 2.4px;
+}
+
+.logo-circle-container{
+  position: relative;
+}
+
+.logo-circle{
+  background: #F9A70C;
+  width: 17px;
+  height: 17px;
+  display: inline;
+  position: absolute;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0px;
+  right: 0;
+  top: -10px;
+}
+
+.transmission-line{
+  border-top: 2px solid black;
+  display: inline;
+}
+
+
+
+@media all and (min-width: 960px) {
+  .logo-content .maxima-energia{
+    font-size: 170px;
+  }
+  .logo-content .comercializadora{
+    font-size: 45px;
+  }
+}
+
+@media all and (max-width: 959px) and (min-width: 600px) {
+  .signorita{
+    font-size: 18vw;
+  }
+  .moda-festa{
+    font-size: 5vh;
+  }
+}
+
+@media all and (max-width: 599px) and (min-width: 50px) {
+  .signorita{
+    font-size: 26vw;
+  }
+  .moda-festa{
+    font-size: 5vh;
+  }
+}
